@@ -4,12 +4,19 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class DivisionOperation implements Operation {
+
+  private String message;
+    public DivisionOperation(String message) {
+        this.message=message;
+
+    }
+
     @Override
     public double calculate(double arg1, double arg2) {
         if (arg2 != 0) {
             return arg2 / arg1;
         } else {
-            throw new RuntimeException("By 0 divison.");
+            throw new RuntimeException(message);
         }
     }
 
