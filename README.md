@@ -1,5 +1,3 @@
-# JAVApoz15-calculator
-
 Kalkulator – zadania
 1. Sforkuj repozytorium https://github.com/CKochanski/JAVApoz15-calculator. Będzie
 stanowiło code base dla kolejnych zadań.
