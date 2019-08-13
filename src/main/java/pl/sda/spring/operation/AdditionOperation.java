@@ -2,6 +2,7 @@ package pl.sda.spring.operation;
 
 import org.springframework.stereotype.Component;
 
+//Bean declaration with @Component
 @Component
 class AdditionOperation implements Operation {
 

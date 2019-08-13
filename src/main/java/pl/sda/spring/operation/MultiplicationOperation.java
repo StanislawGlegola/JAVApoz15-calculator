@@ -1,9 +1,7 @@
 package pl.sda.spring.operation;
 
-import org.springframework.stereotype.Component;
 
-@Component
-
+//Bean declaration in application-beans.xml
 class MultiplicationOperation implements Operation {
 
     @Override

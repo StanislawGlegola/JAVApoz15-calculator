@@ -1,8 +1,6 @@
 package pl.sda.spring.operation;
 
-import org.springframework.stereotype.Component;
-
-@Component
+//Bean declaration in DivisionOperationConfiguration.java
 public class DivisionOperation implements Operation {
 
   private String message;

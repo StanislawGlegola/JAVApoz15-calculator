@@ -1,8 +1,7 @@
 package pl.sda.spring.operation;
 
-import org.springframework.stereotype.Component;
 
-@Component
+//Bean declaration in application-beans.xml
 public class PowerOperation implements Operation {
     @Override
     public double calculate(double arg1, double arg2) {
